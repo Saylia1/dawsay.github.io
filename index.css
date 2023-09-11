@@ -1,0 +1,26 @@
+.home, .about-me {
+    border: 1px solid;
+    height: 300px;
+    overflow: hidden;
+}
+
+ul.nav-bar {
+    list-style: none;
+    display: flex;
+    background-color: rgb(27, 27, 27);
+}
+
+.nav-bar li {
+    padding: 2%;
+}
+
+.nav-bar li:hover {
+    background-color: rgb(69, 69, 69);
+}
+
+.nav-bar a {
+    color: rgb(231, 226, 226);
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
