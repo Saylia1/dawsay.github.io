@@ -1,26 +1,70 @@
-.home, .about-me {
-    border: 1px solid;
-    height: 300px;
-    overflow: hidden;
+body{
+    margin: 0;
+    font-family: cursive;
+    color: rgb(45, 45, 45);
 }
 
-ul.nav-bar {
+#about-me h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.about-me-content{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.about-me-box{
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-size: 30;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#home{
+    text-align: center;
+    height: 500px;
+
+
+}
+.my-image{
+    width: 30%;
+}
+
+#home h1{
+    font-style: italic;
+    padding-top: 125px;
+    font-size: 500%;
+    text-transform: capitalize;
+}
+
+#home p{
+    margin-top: -40px;
+    color: rgb(18, 62, 156);
+}
+
+ul.nav-bar{
+    margin: 0;
+    opacity: 80%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
     list-style: none;
     display: flex;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(25, 104, 150);
+}
+.nav-bar li{
+    padding: 10px;
 }
 
-.nav-bar li {
-    padding: 2%;
+.nav-bar li:hover{
+    background-color: rgb(231, 223, 231);
 }
-
-.nav-bar li:hover {
-    background-color: rgb(69, 69, 69);
-}
-
-.nav-bar a {
-    color: rgb(231, 226, 226);
+.nav-bar a{
+    color: white;
     text-decoration: none;
-    white-space: nowrap;
+    white-space: nowrap; 
     text-transform: capitalize;
 }
