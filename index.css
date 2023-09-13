@@ -34,7 +34,7 @@ body{
 }
 
 #home h1{
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     padding-top: 125px;
     font-size: 500%;
     text-transform: capitalize;
@@ -43,6 +43,7 @@ body{
 #home p{
     margin-top: -40px;
     color: rgb(18, 62, 156);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 ul.nav-bar{
