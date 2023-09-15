@@ -3,10 +3,11 @@ body{
     font-family: cursive;
     color: rgb(45, 45, 45);
 }
-
+/* about me section */
 #about-me h1{
     text-align: center;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
+    font-family: 'Times New Roman', Times, serif;
 }
 .about-me-content{
     justify-content: center;
@@ -21,13 +22,37 @@ body{
     color: black;
     font-size: 30;
    font-family: 'Times New Roman', Times, serif;
+   margin-left: 2%;
 }
 
+/* project section  */
+#projects{
+    margin-bottom: 10%;
+}
+#projects h1{
+    text-align: center;
+    /* text-transform: capitalize; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.my-projects{
+    display: flex;
+    justify-content: center;
+}
+.project{
+    border: 1px solid gray;
+    padding: 3%;
+    width: 35%;
+    margin: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.project img{
+    width: 100%;
+
+}
+ /* home section */
 #home{
     text-align: center;
     height: 500px;
-
-
 }
 .my-image{
     width: 30%;
