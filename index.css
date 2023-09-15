@@ -79,7 +79,7 @@ ul.nav-bar{
     width: 100%;
     list-style: none;
     display: flex;
-    background-color: rgb(25, 104, 150);
+    background-color: rgb(34, 108, 121);
 }
 .nav-bar li{
     padding: 10px;
